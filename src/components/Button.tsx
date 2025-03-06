@@ -9,7 +9,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   external?: boolean;
 }
 
-const Button: React.FC<ButtonProps> = ({
+const Button = React.memo(({
   children,
   className,
   variant = 'blue',
@@ -17,7 +17,7 @@ const Button: React.FC<ButtonProps> = ({
   href,
   external = false,
   ...props
-}) => {
+}: ButtonProps) => {
   const buttonClasses = cn(
     variant === 'blue' && 'cyber-button',
     variant === 'green' && 'cyber-button-green',
@@ -25,7 +25,10 @@ const Button: React.FC<ButtonProps> = ({
     size === 'sm' && 'text-xs py-1 px-3',
     size === 'md' && 'text-sm py-2 px-6',
     size === 'lg' && 'text-base py-3 px-8',
-    'rounded-md',
+    'rounded-md transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-opacity-50',
+    variant === 'blue' && 'focus:ring-cyber-neon-blue',
+    variant === 'green' && 'focus:ring-cyber-neon-green',
+    variant === 'purple' && 'focus:ring-cyber-neon-purple',
     className
   );
   
@@ -36,6 +39,7 @@ const Button: React.FC<ButtonProps> = ({
         className={buttonClasses}
         target={external ? '_blank' : undefined}
         rel={external ? 'noopener noreferrer' : undefined}
+        aria-label={typeof children === 'string' ? children : undefined}
       >
         {children}
       </a>
@@ -43,10 +47,15 @@ const Button: React.FC<ButtonProps> = ({
   }
   
   return (
-    <button className={buttonClasses} {...props}>
+    <button 
+      className={buttonClasses} 
+      {...props}
+    >
       {children}
     </button>
   );
-};
+});
+
+Button.displayName = 'Button';
 
 export default Button;
