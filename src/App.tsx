@@ -5,6 +5,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import DisclaimerPopup from "./components/DisclaimerPopup";
 
 // Lazy load pages for better performance
 const Index = lazy(() => import("./pages/Index"));
@@ -34,6 +35,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
+        <DisclaimerPopup />
         <BrowserRouter>
           <Suspense fallback={<PageLoader />}>
             <Routes>
