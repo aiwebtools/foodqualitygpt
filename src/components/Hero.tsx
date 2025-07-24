@@ -5,7 +5,7 @@ import Button from './Button';
 
 const Hero = memo(() => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">{/* Add padding for fixed header */}
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32">{/* Increased padding for fixed header */}
       {/* Enhanced background with SEO-friendly alt text */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/4 -right-24 w-96 h-96 bg-cyber-neon-blue/20 rounded-full filter blur-3xl animate-pulse" />
@@ -22,7 +22,7 @@ const Hero = memo(() => {
               Food Quality Inspector
             </span>
             <span className="block text-2xl md:text-3xl lg:text-4xl text-gray-300 mt-4">
-              AI-Powered Food Safety Analysis
+              Powered by ChatGPT
             </span>
           </h1>
           
