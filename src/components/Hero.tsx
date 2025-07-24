@@ -5,7 +5,7 @@ import Button from './Button';
 
 const Hero = memo(() => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">{/* Add padding for fixed header */}
       {/* Enhanced background with SEO-friendly alt text */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/4 -right-24 w-96 h-96 bg-cyber-neon-blue/20 rounded-full filter blur-3xl animate-pulse" />
@@ -17,35 +17,35 @@ const Hero = memo(() => {
         <div className="text-center max-w-5xl mx-auto">
           {/* SEO-optimized heading with target keywords */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            <span className="block text-white mb-2">Free AI Tools by</span>
+            <span className="block text-white mb-2">Professional</span>
             <span className="bg-gradient-to-r from-cyber-neon-green via-cyber-neon-blue to-cyber-neon-purple bg-clip-text text-transparent">
-              AiWebTools.Ai
+              Food Quality Inspector
             </span>
             <span className="block text-2xl md:text-3xl lg:text-4xl text-gray-300 mt-4">
-              #1 AI Food Quality Inspector GPT
+              AI-Powered Food Safety Analysis
             </span>
           </h1>
           
           {/* Enhanced description with more keywords */}
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            The world's most advanced <strong className="text-cyber-neon-blue">free AI food analysis tool</strong> by AiWebTools.Ai. 
-            Instantly analyze food quality, safety, and nutrition with our powerful <strong className="text-cyber-neon-green">AI web tools</strong>. 
-            Join millions using our <strong className="text-cyber-neon-purple">free AI tools platform</strong> for smarter food choices.
+            Advanced <strong className="text-cyber-neon-blue">food quality inspection technology</strong> powered by artificial intelligence. 
+            Analyze food safety, nutrition content, and freshness with <strong className="text-cyber-neon-green">professional-grade accuracy</strong>. 
+            Get instant <strong className="text-cyber-neon-purple">food safety assessments</strong> and detailed nutritional breakdowns.
           </p>
           
           {/* Enhanced feature highlights with keywords */}
           <div className="flex flex-wrap justify-center gap-6 mb-10">
             <div className="flex items-center gap-2 text-cyber-neon-green">
               <Scan className="h-5 w-5" />
-              <span className="text-sm md:text-base">Free AI Food Scanner</span>
+              <span className="text-sm md:text-base">Visual Food Analysis</span>
             </div>
             <div className="flex items-center gap-2 text-cyber-neon-blue">
               <Shield className="h-5 w-5" />
-              <span className="text-sm md:text-base">AI Safety Analysis</span>
+              <span className="text-sm md:text-base">Safety Inspection</span>
             </div>
             <div className="flex items-center gap-2 text-cyber-neon-purple">
               <Zap className="h-5 w-5" />
-              <span className="text-sm md:text-base">Instant AI Results</span>
+              <span className="text-sm md:text-base">Nutrition Analysis</span>
             </div>
           </div>
           
@@ -58,7 +58,7 @@ const Hero = memo(() => {
               className="inline-flex items-center gap-2 cyber-button-green text-lg py-4 px-8 rounded-md transition-all hover:scale-105"
               aria-label="Try Food Quality Inspector GPT - Free AI Tool"
             >
-              Try Free AI Tool Now
+              Start Food Inspection
               <ArrowRight className="h-5 w-5" />
             </a>
             <Button 
@@ -66,9 +66,9 @@ const Hero = memo(() => {
               size="lg"
               className="text-lg py-4 px-8"
               onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
-              aria-label="Learn more about AiWebTools.Ai features"
+              aria-label="Learn more about food quality inspection features"
             >
-              Explore AI Web Tools
+              Learn More
             </Button>
           </div>
           
