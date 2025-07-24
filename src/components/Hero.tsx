@@ -62,7 +62,7 @@ const Hero = memo(() => {
               <ArrowRight className="h-5 w-5" />
             </a>
             <Button 
-              variant="outline" 
+              variant="blue" 
               size="lg"
               className="text-lg py-4 px-8"
               onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
