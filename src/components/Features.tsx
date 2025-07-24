@@ -105,11 +105,12 @@ const Features: React.FC = () => {
                 <div className="w-full md:w-1/2 relative">
                   <div className="p-1 bg-gradient-to-r from-cyber-neon-blue to-cyber-neon-purple rounded-lg">
                     <iframe 
-                      src="https://www.youtube.com/embed/rHJR4V8iYZI?autoplay=1&mute=0&vq=hd1080&controls=1&showinfo=0&rel=0&loop=1&playlist=rHJR4V8iYZI" 
+                      src="https://www.youtube.com/embed/rHJR4V8iYZI?autoplay=1&mute=1&vq=hd1080&controls=1&showinfo=0&rel=0&loop=1&playlist=rHJR4V8iYZI&enablejsapi=1" 
                       title="Food Quality Inspector GPT Demo" 
                       className="rounded-lg w-full h-64 md:h-80"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                       allowFullScreen
+                      loading="lazy"
                     />
                   </div>
                 </div>
