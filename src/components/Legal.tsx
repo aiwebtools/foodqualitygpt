@@ -82,7 +82,7 @@ const Legal: React.FC = () => {
                 </ul>
                 
                 <p>
-                  For the complete terms of service, please visit our <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-cyber-neon-blue hover:underline">Terms of Service</a> page. For information about how we handle your data, please review our <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-cyber-neon-blue hover:underline">Privacy Policy</a>.
+                  For the complete terms of service, please visit our <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-neon-blue hover:underline">Terms of Service</a> page. For information about how we handle your data, please review our <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-cyber-neon-blue hover:underline">Privacy Policy</a>.
                 </p>
               </div>
             </div>

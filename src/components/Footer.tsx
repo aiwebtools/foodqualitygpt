@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-cyber-neon-blue transition-colors flex items-center"
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-cyber-neon-blue transition-colors flex items-center"
@@ -107,7 +107,7 @@ const Footer: React.FC = () => {
             
             <div className="mt-6">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-block py-2 px-4 bg-cyber-neon-purple/10 text-cyber-neon-purple border border-cyber-neon-purple/30 rounded-full text-sm font-medium transition-all hover:bg-cyber-neon-purple/20"
@@ -123,7 +123,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
             <a 
-              href="https://www.aiwebtools.ai" 
+              href="https://aiwebtools.lovable.app/?via=aiwebtools" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:text-cyber-neon-blue transition-colors"
