@@ -25,7 +25,7 @@ const Logo = memo(({ className, withTagline = false }: LogoProps) => {
       </div>
       {withTagline && (
         <div className="text-xs text-gray-400 mt-1">
-          Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-neon-blue hover:underline" aria-label="AI Web Tools website">AiWebTools.Ai</a>
+          Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-neon-blue hover:underline" aria-label="AI Web Tools website">AiWebTools.Ai</a>
         </div>
       )}
     </div>

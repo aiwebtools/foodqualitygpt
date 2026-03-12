@@ -109,7 +109,7 @@ const Navbar: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="block py-2 text-gray-300 hover:text-cyber-neon-blue transition-colors"
